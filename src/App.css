@@ -8,10 +8,10 @@ body, html {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-}
-
-/* Centering content */
-.container {
+  }
+  
+  /* Main container */
+  .container {
     text-align: center;
     width: 90%;
     max-width: 400px;
@@ -19,42 +19,49 @@ body, html {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-}
-
-/* Input field and button */
-.input-container {
+  }
+  
+  /* Input and button */
+  .input-container {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
-}
-
-input {
+  }
+  
+  input {
     padding: 10px;
     width: 250px;
     border: 1px solid #fff;
     border-radius: 5px;
     background: #333;
     color: white;
-}
-
-button {
+  }
+  
+  button {
     padding: 10px;
     border: none;
     background: #ff5733;
     color: white;
     cursor: pointer;
     border-radius: 5px;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background: #ff2a00;
-}
-
-/* Result display */
-.result {
+  }
+  
+  /* Result styling */
+  .result-box {
     margin-top: 20px;
-    background: #444;
-    padding: 10px;
-    border-radius: 5px;
-}
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.5);
+  }
+  
+  .result-box p {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
